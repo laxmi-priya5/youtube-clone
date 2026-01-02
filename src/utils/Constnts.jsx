@@ -78,7 +78,3 @@ export const nameList = [
   'Slash', 'Melt', 'Melted', 'Melting', 'Fell', 'Wolf', 'Hound',
   'Legacy', 'Sharp', 'Dead', 'Mew', 'Chuckle', 'Bubba', 'Bubble', 'Sandwich', 'Smasher', 'Extreme', 'Multi', 'Universe', 'Ultimate', 'Death', 'Ready', 'Monkey', 'Elevator', 'Wrench', 'Grease', 'Head', 'Theme', 'Grand', 'Cool', 'Kid', 'Boy', 'Girl', 'Vortex', 'Paradox'
 ];
-function generate() {
-      return nameList[Math.floor(Math.random() * nameList.length)];
-    
-    };
