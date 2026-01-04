@@ -5,7 +5,7 @@ import { closeMenu} from '../utils/appSlice'
 import { useDispatch } from 'react-redux'
 import { COMMENT_DATA } from '../utils/Constnts'
 import Comments from './Comments'
-import ChatComponent from './chatComponent'
+import ChatComponent from './ChatComponent'
 const Watch = () => {
   //to qury from a string use useSearhParams
   const [searchParams] = useSearchParams()
