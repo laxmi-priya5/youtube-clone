@@ -1,8 +1,8 @@
 const GOOGLE_API_KEY = "AIzaSyDJPPG7n56TBNR-beaaSTALMV2rTDYhEbg"
 
-export const YOU_TUBE_API =" https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="+GOOGLE_API_KEY;
+export const YOU_TUBE_API =" https://corsproxy.io/?https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key="+GOOGLE_API_KEY;
 
-export const YOU_TUBE_SEARCH_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q="
+export const YOU_TUBE_SEARCH_API = "https://corsproxy.io/?http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q="
 
 
 export const COMMENT_DATA = [
